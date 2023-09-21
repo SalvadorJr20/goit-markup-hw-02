@@ -1,17 +1,31 @@
-<<<<<<< Updated upstream:styles.css
-=======
-
->>>>>>> Stashed changes:css/styles.css
 :root {
     --iriscolor: #4D5AE5;
+    --navyblue:var(--navyblue)
+    --bla 
+color--var{ }
+
+
+
+
+
+
+
+
 }
- 
+body {
+    font-family: `Roboto`, sans-serif;
+}
+.a {
+    text-decoration: none;
+    color: inherit:
+}
+}    
+
 
 .page, .nav-menu{
     text-decoration: none;
     list-style: none;
     color: var(--navyblue, #2E2F42);
-    
 
     /* Body Medium */
     font-family: Roboto;
@@ -22,8 +36,7 @@
     letter-spacing: 0.32px;
 }
 .contacts-menu{
-   text-decoration: none; 
-
+    
 }
 .contacts-menu, .item{
     text-decoration: none;
