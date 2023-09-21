@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --iriscolor: #4D5AE5;
     --navyblue:var(--navyblue)
@@ -20,12 +21,48 @@ body {
     color: inherit:
 }
 }    
+=======
+:root { 
+--iris #4D5AE5;
+--ocean #404BBF;
+--navy blue #2E2F42   
+--green #31D0AA
+--slate # 344455
+--light slate #8E8F99
+--cornflower #EFE9FC
+--cloud #F4F4FD 
+--navybluemodal #2E2F42 
+--grey #2E2F42
+--white #FFFFFF
+--dairy #FCFCFC
+}
+    
+.body {
+    fonts-family:"Roboto", sans-serify;
+    
+}
+>>>>>>> 085c43725c30cd5cb00111955fe9431073888104
 
+a {
+    text-decoration: none; 
+    color: ;inherit;
+}
 
-.page, .nav-menu{
+.link-logo{
+    text-decoration:none ;
+    font-family:Raleway; san-serif
+    font-size:30 pd ;
+    line-height:1.5px ;
+
+}
+.web-logo{
+    color:var(--iriscolor)
+    font-weight: 500; 
+}
+.page, {
     text-decoration: none;
     list-style: none;
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue);
 
     /* Body Medium */
     font-family: Roboto;
@@ -35,10 +72,10 @@ body {
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
-.contacts-menu{
+.contacts-menu {
     
 }
-.contacts-menu, .item{
+.contacts {
     text-decoration: none;
     color: var(--slate, #434455);
 
@@ -51,11 +88,11 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
     list-style: none;
 }
+.iris{
+    color:var(--iris) #4D5AE5;
+}
 .link {
-    text-decoration: none;
-
-
-
+text-decoration: none;
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
@@ -63,8 +100,9 @@ font-weight: 800;
 line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
+color: var(--navyblue);
 }
-.hero{
+.hero-title {
     color: var(--white, #FFF);
     text-align: center;
     
@@ -156,7 +194,7 @@ line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
-.Studiologo{
+.Studiologo {
     color: var(--navyblue, #2E2F42);
 font-family: Raleway;
 font-size: 18px;
