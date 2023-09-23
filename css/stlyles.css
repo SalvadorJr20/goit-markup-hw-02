@@ -12,43 +12,10 @@
     --white #FFFFFF
     --dairy #FCFCFC
 }
-body {
-    font-family: `Roboto`, sans-serif;
-}
-.a {
-    text-decoration: none;
-    color: inherit:
-}
-}    
-=======
-:root { 
-    --iris #4D5AE5;
-    --ocean #404BBF;
-    --navy blue #2E2F42   
-    --green #31D0AA
-    --slate # 344455
-    --light slate #8E8F99
-    --cornflower #EFE9FC
-    --cloud #F4F4FD 
-    --navybluemodal #2E2F42 
-    --grey #2E2F42
-    --white #FFFFFF
-    --dairy #FCFCFC
-}
-    
-.body {
-    fonts-family:"Roboto", sans-serify;
-    
-}
->>>>>>> 085c43725c30cd5cb00111955fe9431073888104
 
-a {
-    text-decoration: none; 
-    color: ;inherit;
-}
 
 .link-logo{
-    text-decoration:none ;
+    
     font-family:Raleway; san-serif
     font-size:30 pd ;
     line-height:1.5px ;
@@ -59,10 +26,12 @@ a {
     font-weight: 500; 
 }
 .page, {
-    text-decoration: none;
     list-style: none;
     color: var(--navyblue);
-
+    .list{text-decoration: none;
+    
+  
+    }
     /* Body Medium */
     font-family: Roboto;
     font-size: 16px;
@@ -75,7 +44,7 @@ a {
     
 }
 .contacts {
-    text-decoration: none;
+    
     color: var(--slate, #434455);
 
 /* Body */
@@ -91,7 +60,7 @@ letter-spacing: 0.32px;
     color:var(--iris) #4D5AE5;
 }
 .link {
-text-decoration: none;
+
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
@@ -122,6 +91,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background: var(--navyblue, #2E2F42);
 }
 .list{
+
     list-style: none;
 }
 .section-title{
