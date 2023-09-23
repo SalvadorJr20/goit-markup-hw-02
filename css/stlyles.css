@@ -1,20 +1,21 @@
 :root { 
 --iris #4D5AE5;
 --ocean   #404BBF;
--- black;
---ocean# 
---white# 
---slate# 
---cornflower# 
---cloud# 
---navybluemodal# 
---grey # 
---dairy# 
+--navy blue #2E2F42   
+--green #31D0AA
+--slate # 344455
+--light slate #8E8F99
+--cornflower #EFE9FC
+--cloud #F4F4FD 
+--navybluemodal #2E2F42 
+--grey #2E2F42
+--white #FFFFFF
+--dairy #FCFCFC
 }
     
 .body {
     fonts-family:"Roboto", sans-serify;
-    
+    text: --decoration; none;
 }
 
 a {
@@ -30,8 +31,7 @@ a {
 
 }
 .web-logo{
-    color:var(--iriscolor)
-    font-weight: 500; 
+    color:var(--iriscolor)   
 }
 .page, {
     text-decoration: none;
@@ -49,7 +49,7 @@ a {
 .contacts-menu {
     
 }
-.contacts {
+.class-contacts {
     text-decoration: none;
     color: var(--slate, #434455);
 
@@ -169,7 +169,7 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 .Studiologo {
-    color: var(--navyblue, #2E2F42);
+     color: var(--navyblue, #2E2F42);
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
