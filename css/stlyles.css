@@ -1,5 +1,4 @@
 :root { 
-<<<<<<< HEAD
 --iris #4D5AE5;
 --ocean   #404BBF;
 --navy blue #2E2F42   
@@ -17,25 +16,15 @@
 .body {
     fonts-family:"Roboto", sans-serify;
     text: --decoration; none;
-=======
-    --iris #4D5AE5;
-    --ocean #404BBF;
-    --navy blue #2E2F42   
-    --green #31D0AA
-    --slate # 344455
-    --light slate #8E8F99
-    --cornflower #EFE9FC
-    --cloud #F4F4FD 
-    --navybluemodal #2E2F42 
-    --grey #2E2F42
-    --white #FFFFFF
-    --dairy #FCFCFC
->>>>>>> 2ef9b4e3c73f3f5ee9b7841c157827af994da9ae
 }
 
+a {
+    text-decoration: none; 
+    color: ;inherit;
+}
 
 .link-logo{
-    
+    text-decoration:none ;
     font-family:Raleway; san-serif
     font-size:30 pd ;
     line-height:1.5px ;
@@ -45,12 +34,10 @@
     color:var(--iriscolor)   
 }
 .page, {
+    text-decoration: none;
     list-style: none;
     color: var(--navyblue);
-    .list{text-decoration: none;
-    
-  
-    }
+
     /* Body Medium */
     font-family: Roboto;
     font-size: 16px;
@@ -62,14 +49,9 @@
 .contacts-menu {
     
 }
-<<<<<<< HEAD
 .class-contacts {
     text-decoration: none;
-=======
-.contacts {
-    
->>>>>>> 2ef9b4e3c73f3f5ee9b7841c157827af994da9ae
-    color: var(--slate, #434455);
+    color: var(--slate);
 
 /* Body */
 font-family: Roboto;
@@ -81,10 +63,9 @@ letter-spacing: 0.32px;
     list-style: none;
 }
 .iris{
-    color:var(--iris) #4D5AE5;
-}
+    color:var(--iris); 
 .link {
-
+text-decoration: none;
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
@@ -95,7 +76,7 @@ text-transform: uppercase;
 color: var(--navyblue);
 }
 .hero-title {
-    color: var(--white, #FFF);
+    color: var(--white);
     text-align: center;
     
     /* Header 1 */
@@ -108,18 +89,17 @@ color: var(--navyblue);
 }
 .primary{color: azure;
     border-radius: 4px;
-background: var(--iris, #4D5AE5);
+background: var(--iris);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .bg-hero{
-    background: var(--navyblue, #2E2F42);
+    background: var(--navyblue);
 }
 .list{
-
     list-style: none;
 }
 .section-title{
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue);
 text-align: center;
 
 /* Header 2 */
@@ -132,10 +112,10 @@ letter-spacing: 0.72px;
 text-transform: capitalize;
 }
 .footer{
-    background: var(--navyblue, #2E2F42);
+    background: var(--navyblue);
 }
 .footer-text{
-    color: var(--cloud, #F4F4FD);
+    color: var(--cloud);
 
 /* Body */
 font-family: Roboto;
@@ -146,7 +126,7 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
 .projects .name{
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue);
 
     /* Header 3 */
     font-family: Roboto;
@@ -157,7 +137,7 @@ letter-spacing: 0.32px;
      letter-spacing: 0.4px;
 }    
 .projects .type{
-    color: var(--slate, #434455);
+    color: var(--slate);
 
     /* Body */
     font-family: Roboto;
@@ -168,7 +148,7 @@ letter-spacing: 0.32px;
     letter-spacing: 0.32px; 
 }
 .weblogo{
-    color: var(--iris, #4D5AE5);
+    color: var(--iris);
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
@@ -178,7 +158,7 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 .footer-logo{
-    color: var(--cloud, #F4F4FD);
+    color: var(--cloud);
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
@@ -188,7 +168,7 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 .Studiologo {
-     color: var(--navyblue, #2E2F42);
+     color: var(--navyblue);
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
