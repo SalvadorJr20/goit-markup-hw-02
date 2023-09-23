@@ -14,17 +14,10 @@
 }
     
 .body {
-    fonts-family:"Roboto", sans-serify;
-    text: --decoration; none;
+fonts-family: "Roboto", sans-serify;
+    text-decoration: none;
 }
-
-a {
-    text-decoration: none; 
-    color: ;inherit;
-}
-
 .link-logo{
-    text-decoration:none ;
     font-family:Raleway; san-serif
     font-size:30 pd ;
     line-height:1.5px ;
@@ -34,7 +27,6 @@ a {
     color:var(--iriscolor)   
 }
 .page, {
-    text-decoration: none;
     list-style: none;
     color: var(--navyblue);
 
@@ -50,7 +42,6 @@ a {
     
 }
 .class-contacts {
-    text-decoration: none;
     color: var(--slate);
 
 /* Body */
