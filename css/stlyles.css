@@ -1,32 +1,30 @@
 :root { 
---iris: #4D5AE5;
---ocean: #404BBF;
---navy blue: #2E2F42;   
---green: #31D0AA;
---slate: # 344455;
---light slate: #8E8F99;
---cornflower: #EFE9FC;
---cloud: #F4F4FD;
---navy blue modal: #2E2F42;
---grey: #2E2F42;
---white: #FFFFFF;
---dairy: #FCFCFC;
+--iris #4D5AE5;
+--ocean   #404BBF;
+--navy blue #2E2F42   
+--green #31D0AA
+--slate # 344455
+--light slate #8E8F99
+--cornflower #EFE9FC
+--cloud #F4F4FD 
+--navybluemodal #2E2F42 
+--grey #2E2F42
+--white #FFFFFF
+--dairy #FCFCFC
 }
     
 .body {
-    fonts-family: "Raleway", sans-serify;
-}
-.list {
-    list-style-type: none;
-}  
-.link{
+fonts-family: "Roboto", sans-serify;
     text-decoration: none;
-} 
+}
+.link-logo{
+    font-family:Raleway; san-serif
+    font-size:30 pd ;
+    line-height:1.5px ;
 
-.iris {
-    color:var(--iriscolor); 
-    color-inherit;
-  
+}
+.web-logo{
+    color:var(--iriscolor)   
 }
 .page, {
     list-style: none;
@@ -159,8 +157,8 @@ line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
-.Studio {
-color: var(--navyblue);
+.Studiologo {
+     color: var(--navyblue);
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
