@@ -12,32 +12,38 @@
 --white #FFFFFF
 --dairy #FCFCFC
 }
-    
-.body {
-fonts-family: "Roboto", sans-serify;
+  
+body {
+  font-family: "Roboto", sans-serif;
+    color:#434455;
+    background: #FFF;
+} 
+
+ul {
+  list-style-type: none;
+}
+.logo {
+    color:#4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
     text-decoration: none;
 }
-.link-logo{
-    font-family:Raleway; san-serif
-    font-size:30 pd ;
-    line-height:1.5px ;
-
-}
-.web-logo{
+.web {
     color:var(--iriscolor)   
+}
+.studio-logo {
+    color: navy;
 }
 .page, {
     list-style: none;
     color: var(--navyblue); 
     font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    list-style: none;
-}
-.contacts {
+    font-size: 16acts {
     
 }
 .class-contacts {
@@ -51,9 +57,6 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
     list-style: none;
-}
-.iris {
-    color: var(--iris);
 }
     
 .link {
