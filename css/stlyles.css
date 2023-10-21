@@ -33,7 +33,17 @@ ul {
     text-transform: uppercase;
     text-decoration: none;
 }
+<<<<<<< Updated upstream
 .web {
+=======
+.link-logo {
+    font-family:Raleway; san-serif
+    font-size:30 pd ;
+    line-height:1.5px ;
+
+}
+.web-logo {
+>>>>>>> Stashed changes
     color:var(--iriscolor)   
 }
 .studio-logo {
