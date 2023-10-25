@@ -16,13 +16,16 @@ root {
 body {
   font-family: "Roboto", sans-serif;
     color:#434455;
-    background: #FFF;
+    background: #FFFFFF;
 } 
 
-ul {
-  list-style-type: none;
+.lists {
+  list-style-type: none; 
 }
-.logo {
+.links {
+    text-decoration: none;
+}
+.logo  {
     color:#4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -43,8 +46,7 @@ ul {
     list-style: none;
     color: var(--navyblue); 
     font-family: Roboto;
-    font-size: 16acts {
-    
+    font-size: 16acts     
 }
 .class-contacts {
     color: var(--slate);
