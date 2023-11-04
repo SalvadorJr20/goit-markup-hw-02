@@ -1,32 +1,29 @@
-root { 
---iris #4D5AE5;
---ocean   #404BBF;
---navy blue #2E2F42   
---green #31D0AA
---slate # 344455
---light slate #8E8F99
---cornflower #EFE9FC
---cloud #F4F4FD 
---navybluemodal #2E2F42 
---grey #2E2F42
---white #FFFFFF
---dairy #FCFCFC
+:root { 
+--iris :#4D5AE5;
+--ocean  :#404BBF;
+--navy-blue:#2E2F42;   
+--green :#31D0AA;
+--slate :#344455;
+--light-slate :#8E8F99;
+--cornflower :#EFE9FC;
+--cloud :#F4F4FD; 
+--navy-bluemodal :#2E2F42; 
+--grey :#2E2F42;
+--white :#FFFFFF;
+--dairy :#FCFCFC;
 }
   
-body {
-  font-family: "Roboto", sans-serif;
-    color:#434455;
-    background: #FFFFFF;
-} 
+ 
 
 .lists {
   list-style-type: none; 
+  padding: 0;
 }
 .links {
     text-decoration: none;
+    color:currentColor;
 }
 .logo  {
-    color:#4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -37,16 +34,16 @@ body {
     text-decoration: none;
 }
 .web {
-    color:var(--iriscolor)   
+    color:var(--iris);  
 }
 .studio-logo {
     color: navy;
 }
-.page, {
+.page {
     list-style: none;
-    color: var(--navyblue); 
+    color: var(--navy-blue); 
     font-family: Roboto;
-    font-size: 16acts     
+    font-size: 16px;    
 }
 .class-contacts {
     color: var(--slate);
@@ -88,13 +85,13 @@ background: var(--iris);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .bg-hero{
-    background: var(--navyblue);
+    background: var(--navy-blue);
 }
 .list{
     list-style: none;
 }
 .section-title{
-    color: var(--navyblue);
+    color: var(--navy-blue);
 text-align: center;
 
 /* Header 2 */
@@ -107,7 +104,7 @@ letter-spacing: 0.72px;
 text-transform: capitalize;
 }
 .footer{
-    background: var(--navyblue);
+    background-color: var(--navy-blue);
 }
 .footer-text{
     color: var(--cloud);
@@ -121,7 +118,7 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
 .projects .name{
-    color: var(--navyblue);
+    color: var(--navy-blue);
 
     /* Header 3 */
     font-family: Roboto;
@@ -142,18 +139,13 @@ letter-spacing: 0.32px;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px; 
 }
-.web {
-    color: var(--iris);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
-}
+
 .footer {
     color: var(--cloud);
+
+}
+.Studiologo {
+     color: var(--navy-blue);
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
@@ -162,13 +154,7 @@ line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
-.Studiologo {
-     color: var(--navyblue);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
+.web {
+    color: var(--iris);
+
 }
