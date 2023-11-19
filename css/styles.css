@@ -13,8 +13,6 @@
 --dairy :#FCFCFC;
 }
   
- 
-
 .lists {
   list-style-type: none; 
   padding: 0;
@@ -45,17 +43,26 @@
     font-family: Roboto;
     font-size: 16px;    
 }
-.class-contacts {
+.page:hover,
+.page:focus{
+    color:var(--ocean);
+}
+.class-contacts {            
     color: var(--slate);
-
+}
+.item.links:hover,
+.item.links:focus{
+    color:var(--ocean);
+}
 /* Body */
-font-family: Roboto;
+body {
+font-family: 'Roboto' ;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
-    list-style: none;
+list-style: none;
 }
     
 .link {
@@ -69,9 +76,9 @@ text-transform: uppercase;
 color: var(--navyblue);
 }
 .hero-title {
-    color: var(--white);
+    color: var(--white);            
+    border: none;
     text-align: center;
-
     font-family: Roboto;
     font-size: 56px;
     font-style: normal;
@@ -79,22 +86,40 @@ color: var(--navyblue);
     line-height: 60px; /* 107.143% */
     letter-spacing: 1.12px;
 }
-.primary{color: azure;
+.primary {
+ border:1px solid var(--iris);
+    color: var(--white);
     border-radius: 4px;
-background: var(--iris);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background: var(--iris);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-.bg-hero{
+.primary:hover,
+.primary:focus{
+    background:var(--ocean) ;
+}
+.filter{
+    border:1px solid var(--iris);
+    color: var(--white);
+    border-radius: 4px;
+    background: var(--iris);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.filter:hover,
+.filter:focus{
+    background-color: var(--ocean);
+}
+.bg-hero {
     background: var(--navy-blue);
 }
-.list{
+.list {
     list-style: none;
+    padding: 0;
 }
 .section-title{
     color: var(--navy-blue);
 text-align: center;
 
-/* Header 2 */
+/* Header 3 */
 font-family: Roboto;
 font-size: 36px;
 font-style: normal;
@@ -104,18 +129,22 @@ letter-spacing: 0.72px;
 text-transform: capitalize;
 }
 .footer{
+    color:var(--white) ;
     background-color: var(--navy-blue);
 }
 .footer-text{
     color: var(--cloud);
 
 /* Body */
+body { 
+
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
+list-style: none;
 }
 .projects .name{
     color: var(--navy-blue);
@@ -141,11 +170,10 @@ letter-spacing: 0.32px;
 }
 
 .footer {
-    color: var(--cloud);
+    color:var(--white) ;
 
 }
 .Studiologo {
-     color: var(--navy-blue);
 font-family: Raleway;
 font-size: 18px;
 font-style: normal;
